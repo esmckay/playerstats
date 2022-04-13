@@ -1,5 +1,7 @@
 # playerstats
 
+Site is hosted at: playerstats.esmckay.com
+
 This is a barebones NBA Player Card react-app containing an active players' current season averages as well as their game log. The data is being pulled from balldontlie api. The data is fetched, returned in Json format and then displayed for an easy to use customer experience. When you load the website up, the player whos information is shown is Stephen Curry's. There are 3 different sets of information provided: player info: team, height, weight, position, season averages for the main statistical categories for basketball and a game log with the date and opponent followed by the relevant game stats.
 
 There is a search feature that allows you to search for players that were on a team roster for the 2021-2022 season. Search results are displayed as cards on the screen. If you click on the players name, the search results will go away and the player you clicked on will become the active player for the site. If a player was listed on the roster but did not play in a game, the page will show that there are now stats and will ask you to search for a different player. 
